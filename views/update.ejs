@@ -58,12 +58,15 @@
           <input type="text" class="form-control" name="filename" id="exampleInputEmail1" value="<%= Fname%>" aria-describedby="emailHelp"> 
         </div>
         
-        <button type="submit" class="btn btn-primary last">Load Files</button>
-        <div class="mb-3 pt-5">
-            <label for="inputfilename" class="form-label">Enter File Name</label>
+        <button type="submit" class="btn btn-primary last">Searching ...</button>
+        <div class="mb-3 pt-5"> 
+            <label for="inputfilename" class="form-label">Update Data</label>
             <input type="text" class="form-control" name="message" id="exampleInputEmail1" value="<%= content%>" aria-describedby="emailHelp"> 
           </div>
         <button type="submit" class="btn btn-primary last">Update Data</button>
       </form> 
+      <div class="container mt-2">
+      <%= content%>
+    </div>
 </body>
 </html>
